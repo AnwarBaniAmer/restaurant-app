@@ -1,0 +1,13 @@
+{
+  "name": "restaurant app",
+  "version": "1.0.0",
+  "description": "Pbuilding a simple webpage "Hunger Restaurant" which contains so many choices of meals to let
+the user pick his favorite food.",
+  "scripts": {
+    "start": "serve",
+  },
+  "dependencies": {
+    "serve": "^10.0.1"
+  },
+  "author": "Anwar Bani Amer"
+}
