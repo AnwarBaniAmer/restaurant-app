@@ -1,0 +1,70 @@
+th {
+	font-family: monospace;
+	padding: 4px;
+	background-color: #Tomato;
+}
+
+td{
+	font-family: monospace;
+	padding: 4px;
+	background-color: #Tomato;
+
+}
+
+
+#items_table {
+	border: 1px dotted blue;
+	padding: 6px;
+	margin-top: 12px;
+	margin-right: 50%;
+}
+
+#items_table h3 {
+	font-size: 18px;
+	margin-top: 0px;
+	font-family: sans-serif;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+}
+
+h1 {
+ background-color:Tomato; color:white; font-size:30px;text-align:center;
+}
+th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 9px;
+}
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #Tomato;
+}
+#submit-btn , #delete-btn , #clear-btn {
+ background-color:Tomato;   border: 1px solid #dddddd; color:white; font-size:18px;text-align:center;   padding: 6px; margin-right: 8%;
+  margin-top: 3%;}
+#buttons{ margin-right: 3%;}
+select#List, input#quantity {
+    width: 300px;
+    height: auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6, p, div,a, span, body * {
+    font-family: sans-serif;
+}
+p{
+color: Tomato;
+}
+h1 {
+    padding: 25px;
+    margin: 0;
+}
