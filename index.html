@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+<title>Restaurant App</title>
+<META charset="UTF-8">
+<META name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<META NAME='rating' CONTENT='General' />
+<META NAME='expires' CONTENT='never' />
+<META NAME='language' CONTENT='English, EN' />
+<META name="description" content="resurent app project with HTML5 and JavaScript">
+<META name="keywords" content="HTML5,CSS,JavaScript, html5 session storage, html5 local storage">
+<META name="author" content="anwarbaniamer">
+<script src="MyStorage1.js"></script>
+<link rel="stylesheet" href="MyStyle.css">
+
+
+</head>
+
+
+<body onload="ShowOrderList()">
+	<h1>Restaurant App</h1>
+<form name=OrderList>	
+
+<div class=items>
+   <h2>What would you like to order?</h2>
+	 
+   <select id="List" name="name" placeholder="Choose your order items :">
+	  <option value="">Choose your order items :</option>
+	  <option value="Burger">Burger</option>
+	  <option value="Pizza">Pizza</option>
+	  <option value="Zinger">Zinger</option>
+	  <option value="Hot Dog">Hot Dog</option>
+	  <option value="Pepsi">Pepsi</option>
+	  <option value="sevenUp">Seven up</option>
+
+	</select>
+</div> 
+  <p id="hint"></p>
+<div class=quantity>
+<h2>Quantity</h2>
+<input type="number" id="quantity" name="data"  min="1" max="100" placeholder="How many you need to order?">
+
+</div> 
+<div id="buttons">
+<input id="submit-btn" type="button" value="Submit"   onclick="SubmitItem()"> 
+<input id="delete-btn" type="button" value="Delete"   onclick="RemoveItem()"> 
+</div>
+	<div id="items_table">
+		<h3>Order List</h3>
+		<table id=list></table>
+
+		<input id= "clear-btn" type=button value="Clear All" onclick="ClearAll()">
+	
+	</div>
+</form>
+
+</body>
+</html>
