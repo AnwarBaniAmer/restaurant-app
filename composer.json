@@ -1,7 +1,5 @@
-{ "name": "anwar1995/g",
-    "description": "anwar1995/g",
+{
     "require": {
         "twig/twig": "1.13.*"
     }
-    
-    }
+}
