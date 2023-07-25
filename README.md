@@ -1,4 +1,4 @@
-# restaurant-app-hiring-task
+# restaurant-app
 restaurant-app-hiring-task
 
 link to open the Restaurant Application:https://anwarbaniamer-technical-task.herokuapp.com/
